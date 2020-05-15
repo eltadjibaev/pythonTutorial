@@ -10,12 +10,12 @@ print(course[0:])
 print(course[1:])
 print(course[:5])"""
 
-first = 'Elmu'
+"""first = 'Elmu'
 last = 'Tad'
 msg = f'{first} {last} is a coder'
-print(msg)
+print(msg)"""
 
-course = 'Python for Beginners'
+"""course = 'Python for Beginners'
 print(len(course))
 print(course.upper())
 print(course.lower())
@@ -24,4 +24,10 @@ print(course.replace('Beginners', 'Fun'))
 print('Python' in course)
 print(10 // 3)
 print(10 ** 3)
+print(round(2.4))
+print(abs(-2.4))"""
+
+import math
+
+print(math.ceil(2.9))
 
