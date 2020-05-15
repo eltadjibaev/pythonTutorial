@@ -21,3 +21,7 @@ print(course.upper())
 print(course.lower())
 print(course.find('f'))
 print(course.replace('Beginners', 'Fun'))
+print('Python' in course)
+print(10 // 3)
+print(10 ** 3)
+
