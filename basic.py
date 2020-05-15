@@ -15,8 +15,9 @@ last = 'Tad'
 msg = f'{first} {last} is a coder'
 print(msg)
 
-course = 'Python for Beginers'
+course = 'Python for Beginners'
 print(len(course))
 print(course.upper())
 print(course.lower())
 print(course.find('f'))
+print(course.replace('Beginners', 'Fun'))
