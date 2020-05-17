@@ -27,8 +27,26 @@ print(10 ** 3)
 print(round(2.4))
 print(abs(-2.4))"""
 
-import math
+"""import math
 
 print(math.ceil(2.9))
-print(math.floor(2.9))
+print(math.floor(2.9))"""
+
+# else if
+"""if True:
+    print(' ')
+elif False:
+    print(" ")
+else:
+    print(" ")
+
+# and, or, not
+
+if True and not True:
+    print('true')
+
+name = 'Elmu'
+if len(name) < 3:
+    print("  ")
+"""
 
