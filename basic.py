@@ -1,3 +1,4 @@
+
 #how to use int(), type()
 """ birth_year = input('Birth year: ')
 print(type(birth_year))
