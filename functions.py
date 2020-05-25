@@ -1,4 +1,4 @@
-def greet(name):
+'''def greet(name):
     print(f'Hi there, {name}')
 
 # Parameters
@@ -26,5 +26,21 @@ try:
 except ZeroDivisionError:
     print('Age cannot be 0')
 except ValueError:
-    print('Invalid value')
+    print('Invalid value'
+'''
+
+# function another type
+
+def announce(f):
+    def wrapper():
+        print('About to run the function...')
+        f()
+        print('Done with the function...')
+    return wrapper
+
+@announce
+def hello():
+    print('Hello world!!')
+
+hello()
 
