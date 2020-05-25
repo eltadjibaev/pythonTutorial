@@ -29,8 +29,7 @@ except ValueError:
     print('Invalid value'
 '''
 
-# function another type
-
+# decorators:
 def announce(f):
     def wrapper():
         print('About to run the function...')
